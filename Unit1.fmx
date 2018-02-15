@@ -1,0 +1,658 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'Othello - Programacion II'
+  ClientHeight = 640
+  ClientWidth = 446
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Orientations = [Portrait]
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object Panel1: TPanel
+    Position.X = 24.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnClick = Panel1Click
+    OnMouseUp = Panel1MouseUp
+    object Circle1: TCircle
+      Position.X = 64.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle2: TCircle
+      Position.X = 72.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle3: TCircle
+      Position.X = 80.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle4: TCircle
+      Position.X = 88.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle5: TCircle
+      Position.X = 96.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle6: TCircle
+      Position.X = 104.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle7: TCircle
+      Position.X = 112.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle8: TCircle
+      Position.X = 120.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle9: TCircle
+      Position.X = 128.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle10: TCircle
+      Position.X = 136.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle11: TCircle
+      Position.X = 144.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle12: TCircle
+      Position.X = 152.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle13: TCircle
+      Position.X = 160.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle14: TCircle
+      Position.X = 168.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle15: TCircle
+      Position.X = 176.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle16: TCircle
+      Position.X = 184.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle17: TCircle
+      Position.X = 192.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle18: TCircle
+      Position.X = 200.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle19: TCircle
+      Position.X = 208.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle20: TCircle
+      Position.X = 216.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle21: TCircle
+      Position.X = 224.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle22: TCircle
+      Position.X = 232.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle23: TCircle
+      Position.X = 240.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle24: TCircle
+      Position.X = 248.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle25: TCircle
+      Position.X = 256.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle26: TCircle
+      Position.X = 264.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle27: TCircle
+      Position.X = 272.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle28: TCircle
+      Position.X = 280.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle29: TCircle
+      Position.X = 288.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle30: TCircle
+      Position.X = 296.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle31: TCircle
+      Position.X = 304.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle32: TCircle
+      Position.X = 312.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle33: TCircle
+      Position.X = 320.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle34: TCircle
+      Position.X = 328.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle35: TCircle
+      Position.X = 336.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle36: TCircle
+      Position.X = 344.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle37: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle38: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle39: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle40: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle41: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle42: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle43: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle44: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle45: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle46: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle47: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle48: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle49: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle50: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle51: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle52: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle53: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle54: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle55: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle56: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle57: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle58: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle59: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle60: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle61: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle62: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle63: TCircle
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Circle64: TCircle
+      Fill.Kind = None
+      Position.X = 350.000000000000000000
+      Position.Y = 350.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+  end
+  object Button1: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 528.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'INICIAR JUEGO'
+    OnClick = Button1Click
+  end
+  object Panel2: TPanel
+    Position.X = 24.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Label1: TLabel
+      StyledSettings = [Style, FontColor]
+      Position.X = 16.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 33.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 10.000000000000000000
+      Text = 'Turno:'
+    end
+    object Circle65: TCircle
+      Position.X = 16.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Circle66: TCircle
+      Fill.Color = claWhite
+      Position.X = 72.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Circle67: TCircle
+      Fill.Color = claBlack
+      Position.X = 128.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object LabelBlanco: TLabel
+      StyledSettings = [Family, FontColor]
+      Position.X = 72.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = '0'
+    end
+    object LabelNegro: TLabel
+      StyledSettings = [Family]
+      Position.X = 128.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = '0'
+    end
+    object Label3: TLabel
+      StyledSettings = [Style, FontColor]
+      Position.X = 72.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 10.000000000000000000
+      Text = 'HUMANO'
+    end
+    object Label4: TLabel
+      StyledSettings = [Style, FontColor]
+      Position.X = 128.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 10.000000000000000000
+      Text = 'MAQUINA'
+    end
+  end
+  object Button2: TButton
+    Position.X = 168.000000000000000000
+    Position.Y = 528.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'SALIR'
+    OnClick = Button2Click
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 40.000000000000000000
+    Position.Y = 312.000000000000000000
+    Size.Width = 361.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'FELICIDADES, HA GANADO EL JUGADOR:'
+    Visible = False
+  end
+  object MediaPlayer1: TMediaPlayer
+    Left = 256
+    Top = 24
+  end
+end

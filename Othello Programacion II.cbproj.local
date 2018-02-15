@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/02/07 21:41:32.000.297,=P:\Diego\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2018/02/07 21:41:40.000.361,=P:\Diego\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2018/02/07 21:47:30.000.273,D:\Diego\Desktop\Othello\Unit1.h=P:\Diego\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2018/02/07 21:47:30.000.273,D:\Diego\Desktop\Othello\Unit1.cpp=P:\Diego\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2018/02/07 21:47:30.000.273,D:\Diego\Desktop\Othello\Unit1.fmx=P:\Diego\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2018/02/07 21:47:32.000.982,D:\Diego\Desktop\Othello\Project1PCH1.h=P:\Diego\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2018/02/07 21:47:35.000.027,D:\Diego\Desktop\Othello\Project1.cbproj=P:\Diego\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2018/02/08 03:10:48.000.855,D:\Diego\Desktop\Othello\Othello Programacion IIPCH1.h=D:\Diego\Desktop\Othello\Project1PCH1.h</Transaction>
+    <Transaction>2018/02/08 03:10:49.000.064,D:\Diego\Desktop\Othello\Othello Programacion II.cbproj=D:\Diego\Desktop\Othello\Project1.cbproj</Transaction>
+    <Transaction>2018/02/08 07:16:00.350,=D:\Diego\Desktop\Othello\Recursos\inicio.mp3</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android="PLEGAR2761001786"/>
+  </ActiveMobileDevice>
+</BorlandProject>

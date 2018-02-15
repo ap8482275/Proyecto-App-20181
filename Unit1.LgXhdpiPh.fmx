@@ -1,0 +1,16 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Panel2: TPanel
+    inherited LabelBlanco: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited LabelNegro: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited Label2: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+end
